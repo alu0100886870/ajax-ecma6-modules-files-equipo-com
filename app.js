@@ -13,14 +13,14 @@ app.use(expressLayouts);
 
 app.use(express.static(__dirname + '/public'));
 
-const calculate = require('XXXXXXXXXXXXXXXXXX');
+const calculate = require('./models/calculate');
 
 app.get('/', (request, response) => {     
-  XXXXXXXXXXXXXXXXXXXXXXXX X XXXXXX XXXX XXXXXXXXX XXX
+  response.render('index', {}); //Falta completar
 });
 
 app.get('/csv', (request, response) => {
-  XXXXXXXXXXXXXXX XXXXXXX XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX XXX
+  response.send({clave: calculate(request.query.input)}); //Falta por determinar nombre de clave
 });
 
 app.listen(app.get('port'), () => {
