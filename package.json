@@ -8,18 +8,20 @@
   },
   "repository": {
     "type": "git",
-    "url": XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+    "url": "git+https://github.com/alu0100886870/ajax-ecma6-modules-files-equipo-com.git"
   },
   "keywords": [
     "csv"
   ],
-  "author": XXXXXXXXXX
+  "author": {
+	  "name": "Miguel Castro Caraballo"
+  }
   "contributors": [],
   "license": "ISC",
   "bugs": {
-    "url": XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+    "url": "https://github.com/alu0100886870/ajax-ecma6-modules-files-equipo-com/issues"
   },
-  "homepage": XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+  "homepage": "https://github.com/alu0100886870/ajax-ecma6-modules-files-equipo-com.git#readme",
   "dependencies": {
 	"jquery": "*",
     "underscore": "*",
@@ -29,7 +31,7 @@
     "express-ejs-layouts": "~1.1.0"
   },
   "engines": {
-    "node": XXXXX
+    "node": "*"
   },
   "devDependencies": {
   }
